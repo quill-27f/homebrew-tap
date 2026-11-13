@@ -1,28 +1,28 @@
 class Cellix < Formula
   desc "AI companion IDE inside your coding agent"
   homepage "https://github.com/quill-27f/cellix"
-  version "0.6.6"
+  version "0.6.7"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/quill-27f/cellix/releases/download/v0.6.6/cellix-aarch64-apple-darwin.tar.gz"
-      sha256 "f6419b260357a0b93942590cbdc0059b7d8dda8b0464f99ed74de4c1fbb7871f"
+      url "https://github.com/quill-27f/cellix/releases/download/v0.6.7/cellix-aarch64-apple-darwin.tar.gz"
+      sha256 "b9839b6ac4acfe943858c30f208e0be9d46118b0352f8d0a6160acef472e5bda"
     end
     on_intel do
-      url "https://github.com/quill-27f/cellix/releases/download/v0.6.6/cellix-x86_64-apple-darwin.tar.gz"
-      sha256 "87280f4949423baea15fd72b62f6ca056ea2aa7b261304db202cd88e647c5999"
+      url "https://github.com/quill-27f/cellix/releases/download/v0.6.7/cellix-x86_64-apple-darwin.tar.gz"
+      sha256 "90877315b04f8b5a3d3dd558e3f49697564282e9239b579a2fb124259fdbafe5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quill-27f/cellix/releases/download/v0.6.6/cellix-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c9dbb8bfaac9056461411e9bf8ac88b6e2adcc9f7de5b6e58513cdf28002259e"
+      url "https://github.com/quill-27f/cellix/releases/download/v0.6.7/cellix-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "8e6f4cf43e512d4e18e68b9b459af6e3adf04a2d620fedeb8636bf7545e48c03"
     end
     on_intel do
-      url "https://github.com/quill-27f/cellix/releases/download/v0.6.6/cellix-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1bd5637e52bc518736ce427bee7b7e8d981702ca70446020d8092cdf06a51475"
+      url "https://github.com/quill-27f/cellix/releases/download/v0.6.7/cellix-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4f92e9aafe5db7f163d7ae12ef379f422bad6956ce4085f69367aa7154ab4053"
     end
   end
 
